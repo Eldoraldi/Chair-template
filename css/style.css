@@ -1,0 +1,151 @@
+/* Author : Midhun Roy 
+Time : 02:15 pm*/
+* {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	border-bottom: solid 5px #58b758;
+}
+
+.container {
+	width: 60%;
+	margin-left: 20%;
+}
+
+.container p {
+	line-height: 1.5;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.header_left {
+	margin-top: 5%;
+	width: 50%;
+}
+.header_left h1 {
+	font-size: xxx-large;
+}
+
+.header_right {
+	width: 45%;
+}
+
+.width_img {
+	width: 100%;
+}
+
+.article {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2%;
+	width: 100%;
+}
+
+.article_sub {
+	width: 32%;
+}
+
+.article_sub img {
+	margin-bottom: 5%;
+}
+
+.feedback_div {
+	background-color: #58b758;
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 1%;
+	border-radius: 10px;
+	color: #fff;
+}
+.feedback_img {
+	width: 25%;
+}
+
+.feedback_img img {
+	border-radius: 5%;
+}
+
+.feedback_dis {
+	width: 70%;
+}
+
+.section_bestselling {
+	margin-top: 2%;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.section_bestselling > div {
+	width: 30%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 5px #dddddd;
+}
+
+.best_sell_div {
+	width: 100%;
+}
+.best_sell_div > img {
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.best_sell_dis_div {
+	margin-left: 5%;
+	margin-top: 10%;
+	width: 100%;
+	padding: 10%;
+}
+
+.best_sell_dis_div p {
+	line-height: 3;
+}
+
+.section_bestselling p {
+	font-size: small;
+}
+
+footer {
+	margin-top: 5%;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.button {
+	padding: 3%;
+	border-radius: 10px;
+	background-color: #58b758;
+	color: #fff;
+	display: inline-block;
+	margin-top: 5%;
+}
+.article_sub > img {
+	width: 10%;
+}
+
+p > img {
+	width: 10%;
+}
+
+.header_right > img {
+	border-radius: 5%;
+}
+.atc {
+	margin-top: 15%;
+	display: flex;
+	justify-content: space-between;
+}
